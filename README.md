@@ -119,7 +119,7 @@ st.write('Aprendendo a usar o Streamlit')
 st.header('Exemplo de layout')
 st.text('Texto 1')
 
-col1, col2 = st.beta_columns(2)
+col1, col2 = st.columns(2)
 
 with col1:
     st.text('Texto 2')
